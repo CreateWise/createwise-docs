@@ -14,4 +14,17 @@ export default withNextra({
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
       : "https://docs.createwise.ai",
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+      {
+        protocol: "http",
+        hostname: "**",
+      },
+    ],
+  },
 });
