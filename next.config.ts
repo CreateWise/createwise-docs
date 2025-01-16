@@ -1,10 +1,17 @@
-import type { NextConfig } from "next";
-import nextra from 'nextra'
+import nextra from "nextra";
 
 const withNextra = nextra({
-})
+  latex: true,
+  search: {
+    codeblocks: false,
+  },
+  contentDirBasePath: "/docs",
+});
 
 export default withNextra({
-  assetPrefix: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://docs.createwise.ai',
-})
-
+  reactStrictMode: true,
+  assetPrefix:
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://docs.createwise.ai",
+});
