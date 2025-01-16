@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import nextra from 'nextra'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const withNextra = nextra({
+})
 
-export default nextConfig;
+export default withNextra({
+  assetPrefix: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://docs.createwise.ai',
+})
+
