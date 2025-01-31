@@ -2,5 +2,5 @@ export default {
   index: '',
   configuration: '',
   callout: '',
-  bleed: ''
+  bleed: '',
 }

@@ -4,5 +4,5 @@ export default {
   i18n: '',
   image: '',
   themes: '',
-  latex: ''
+  latex: '',
 }

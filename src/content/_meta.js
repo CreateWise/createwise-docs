@@ -3,5 +3,5 @@ export default {
   'get-started': '',
   features: '',
   themes: '',
-  advanced: ''
+  advanced: '',
 }
