@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+.nextra-banner {
+  background: linear-gradient(to right, rgb(252, 70, 107), rgb(63, 94, 251));
+}

@@ -9,6 +9,10 @@ const withNextra = nextra({
 
 export default withNextra({
   reactStrictMode: true,
+  i18n: {
+    locales: ['en', 'zh'],
+    defaultLocale: 'en',
+  },
   // https://github.com/vercel/turborepo/issues/4832#issuecomment-1751407444
   webpack(config) {
     config.module.rules.push({
