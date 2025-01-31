@@ -1,0 +1,7 @@
+{
+  "version": "1.3.0",
+  "languages": {
+    "en": { "hash": "en_1c3851e579", "wasm": "en", "page_count": 3 },
+    "zh": { "hash": "zh_18ecf02276", "wasm": null, "page_count": 3 }
+  }
+}
