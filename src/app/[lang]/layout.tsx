@@ -5,6 +5,7 @@ import 'nextra-theme-docs/style.css'
 import type { ReactNode } from 'react'
 import { Logo } from '~/components/logo'
 import '~/styles/globals.css'
+import { Analytics } from '~/components/analytics'
 import type { Locale } from '~/i18n/config'
 import { getDictionary } from '~/i18n/routing'
 
@@ -84,6 +85,7 @@ export default async function RootLayout({
         >
           {children}
         </Layout>
+        <Analytics />
       </body>
     </html>
   )
